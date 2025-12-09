@@ -53,7 +53,7 @@ export default defineConfig({
     minify: false,
     cssCodeSplit: false,
   },
-  base: "/rts_main_content",
+  base: "/rts_vue_mf_extra/",
   preview: {
     port: 5007,
     cors: false,
@@ -63,7 +63,7 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    open: "/rts_main_content",
+    open: "/rts_vue_mf_extra/",
     cors: true,
   },
 });
