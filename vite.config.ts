@@ -18,6 +18,7 @@ export default defineConfig({
       },
       exposes: {
         "./SharedMainPage": "./src/components/SharedMainPage.vue",
+        "./vue": "vue",
       },
     }),
   ],
