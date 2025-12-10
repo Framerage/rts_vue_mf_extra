@@ -16,5 +16,6 @@ const onAddItem=()=>{
     </ul>
     <div>line 2</div>
     <button @click="onAddItem"> add</button>
+    <input type="range" :min="0" :max="10" :step="1" >
 </template>
 
